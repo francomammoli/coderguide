@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@200;300;400;500;700;800;900&display=swap');
+/* reset */
+*{
+    box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+html{
+    scroll-behavior: smooth;
+    font-family: 'Source Code Pro', monospace !important;
+    font-size: 16px;
+    overflow-x: hidden;
+}
+
+body{
+    font-family: 'Source Code Pro', monospace !important;
+    margin: 0;
+    overflow-x: hidden;
+    position: relative;
+    min-height: 100vh;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+*,
+*::after,
+*::before{
+    box-sizing: inherit;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+
+/* top header */
+.top-header{
+    background-color: #AA75E3;
+}
+
+.p-header{
+    padding: 5px 0px;
+    text-align: center;
+}
+
+/* header */
+header{
+    background-color: #000;
+}
+header p{
+    color: #fff;
+}
+
+header h2{
+    color: #fff;
+}
+.header-partial{
+    max-width: 768px;
+    margin: auto;
+}
+
+/* home */
+.section-1{
+    background-color: #000;
+    height: 100vh;
+}
+.blogs-principal{
+    max-width: 768px;
+    margin: auto;
+}
+
+.mas-visto{
+    color: #fff;
+    border-bottom: 2px solid #fff;
+}
+
+/* article guia principal */
+.img-guia{
+    height: 350px;
+    border-radius: 12px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../img/guia.jpg);
+    background-size: cover;
+    background-position: 0%;
+}
+
+/* section 2 */
+.main-2{
+    background-color: #fff;
+    height: 100vh;
+}
+
+.section-2{
+    max-width: 768px;
+    margin: auto;
+}
+
+.nuevo{
+    border-bottom: 2px solid #000;
+}
+
+/* footer y newsletter */
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-new{
+    background-color: #C58FFF;
+}
+
+.conteiner-footer{
+    background-color: #AA75E3;
+}
